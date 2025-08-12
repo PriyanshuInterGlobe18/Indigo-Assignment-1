@@ -21,6 +21,24 @@ Powered by **Groq LLaMA-3**, **LangChain**, **ChromaDB**, and **Streamlit** — 
 - 🌐 **Two Deployment Options** – Run on **Google Colab** (cloud) or **VS Code** (local).
 
 ---
+| UI Home | Build Index | Q&A |
+|---|---|---|
+| ![1](Images/Screenshot%202025-08-12%20111745.png) | ![2](Images/Screenshot%202025-08-12%20111800.png) | ![3](Images/Screenshot%202025-08-12%20111817.png) |
+
+| Chat | Summary | Quiz |
+|---|---|---|
+| ![4](Images/Screenshot%202025-08-12%20111837.png) | ![5](Images/Screenshot%202025-08-12%20111922.png) | ![6](Images/Screenshot%202025-08-12%20112014.png) |
+
+| Settings | Citations | Logs |
+|---|---|---|
+| ![7](Images/Screenshot%202025-08-12%20112026.png) | ![8](Images/Screenshot%202025-08-12%20112055.png) | ![9](Images/Screenshot%202025-08-12%20112118.png) |
+
+| Extra |
+|---|
+| ![10](Images/Screenshot%202025-08-12%20112135.png) |
+
+
+---
 
 ## 🛠 Tech Stack
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
