@@ -1,0 +1,10 @@
+streamlit==1.36.0
+langchain>=0.2.3
+langchain-community>=0.2.3
+langsmith>=0.1.58
+pypdf>=4.2.0
+chromadb>=0.5.3
+sentence-transformers>=2.7.0
+torch>=2.2.0
+requests>=2.31.0
+python-dotenv>=1.0.1
