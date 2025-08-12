@@ -4,25 +4,125 @@ Run your multi‑PDF → Chroma → Groq Q&A/Chat/Summary/Quiz app **locally** i
 
 ## Quick Start
 
+
+---
+
+````markdown
+# ✈️ IndiGo RAG Chatbot – Document Q&A
+
+A **Retrieval-Augmented Generation (RAG)** based chatbot designed for querying PDF documents with precision.  
+Powered by **Groq LLaMA-3**, **LangChain**, **ChromaDB**, and **Streamlit** — built for fast, contextual responses.
+
+---
+
+## 📽 Demo Video  
+**[▶ Watch the Video](https://drive.google.com/file/d/1prWTHqUt76tMGLHutOZElbROh1Peq2nI/view?usp=sharing)**  
+
+---
+
+## 🚀 Features
+- 📄 Upload multiple PDF documents
+- 🔍 Query using natural language
+- 🧠 Uses **Groq LLaMA-3** for lightning-fast responses
+- 🗄 Document embeddings stored in **ChromaDB**
+- 📊 Summarization & MCQ quiz generation
+- 🎨 Modern **Streamlit** UI
+
+---
+
+## ⚡ Run the Chatbot
+
+You can run this project in **two ways**:
+
+---
+
+### **Option 1 – Run in Google Colab (Cloud)**
+No installation required! Run directly in the browser.
+
+1. Open the Colab Notebook:  
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_NOTEBOOK_LINK_HERE)
+   
+2. Upload your PDF files inside the notebook.
+
+3. Enter your **GROQ_API_KEY** when prompted.
+
+4. Click **Run All** — the Streamlit app will launch in Colab.
+
+---
+
+### **Option 2 – Run Locally in VS Code**
+Run directly on your system for full control.
+
+#### 1️⃣ Clone the Repository
 ```bash
-# 1) Create & activate a virtual env (optional but recommended)
+git clone https://github.com/PriyanshuInterGlobe18/Indigo-Chatbot-Assignment-1.git
+cd Indigo-Chatbot-Assignment-1
+````
+
+#### 2️⃣ Create & Activate Virtual Environment (Optional but Recommended)
+
+```bash
 python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux:
+```
+
+**For Windows:**
+
+```bash
+.venv\Scripts\activate
+```
+
+**For macOS/Linux:**
+
+```bash
 source .venv/bin/activate
+```
 
-# 2) Install deps
+#### 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-# 3) Add your keys
+#### 4️⃣ Add Your API Key
+
+```bash
 cp .env.example .env
-# Edit .env and paste GROQ_API_KEY
+```
 
-# 4) Run
+Edit `.env` and add:
+
+```
+GROQ_API_KEY=your_api_key_here
+```
+
+#### 5️⃣ Run the App
+
+```bash
 streamlit run app.py
 ```
 
-Open http://localhost:8501
+---
+
+## 📂 Project Structure
+
+```
+Indigo-Chatbot-Assignment-1/
+│── vscode/               # VS Code project files
+│── images/               # Screenshots for README
+│── app.py                 # Streamlit app
+│── rag_core.py            # RAG logic
+│── requirements.txt       # Python dependencies
+│── README.md              # Project documentation
+│── .env.example           # Example environment variables
+```
+
+---
+
+---
+
+
+```
+
 
 # ✈️ IndiGo RAG Chatbot – AI-Powered Procurement Assistant
 
