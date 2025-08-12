@@ -124,7 +124,7 @@ Indigo-Chatbot-Assignment-1/
 ```
 
 
-# ✈️ IndiGo RAG Chatbot – AI-Powered Procurement Assistant
+
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-ff4b4b)
@@ -208,21 +208,28 @@ The chatbot supports:
 ## 🛠️ Tech Stack (Detailed)
 
 - **Python 3.10+** – Core programming language for the application.
+
 - **[Streamlit](https://streamlit.io/)** – Interactive frontend framework to build the chatbot UI quickly and with minimal code.
+
 - **[LangChain](https://www.langchain.com/)** – Orchestration layer for:
   - Chaining prompts.
   - Handling retrieval.
   - Managing summarization and quiz generation pipelines.
+
 - **[ChromaDB](https://www.trychroma.com/)** – Vector database for storing and retrieving document embeddings.
+
 - **[Sentence-Transformers](https://www.sbert.net/)** – Used for creating high-quality text embeddings.  
-  *Embedder:* `"all-MiniLM-L6-v2"` (fast & lightweight, ~384-dim vector size).  
+  *Embedder:* `"all-MiniLM-L6-v2"` (fast & lightweight, ~384-dim vector size).
+
 - **[Groq API](https://groq.com/)** – Provides access to LLaMA3 models for ultra-low latency inference.  
   *Model Parameters:* temperature = `0.0` (factual responses), max_tokens = `1024` (long answers).
+
 - **[pypdf](https://pypi.org/project/pypdf/)** – Extracts text from uploaded PDFs.
+
 - **Google Colab + Cloudflare Tunnel** – Deployment for demos without local setup.
+
 - **[LangSmith](https://smith.langchain.com/)** – Optional integration for tracing, debugging, and tracking chatbot runs.
 
 ---
 
-## 📂 Project Structure
 
