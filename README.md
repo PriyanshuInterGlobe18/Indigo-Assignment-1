@@ -41,7 +41,7 @@ You can run this project in **two ways**:
 No installation required! Run directly in the browser.
 
 1. Open the Colab Notebook:  
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_NOTEBOOK_LINK_HERE)
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([YOUR_COLAB_NOTEBOOK_LINK_HER](https://colab.research.google.com/drive/1Cd5vL3LBANYMENKZ9_Ao5d4vjTAcF9XI#scrollTo=CGexHJX0Ix40)E)
    
 2. Upload your PDF files inside the notebook.
 
@@ -122,5 +122,5 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ```
 
 
-Do you want me to do that next?
+
 ```
