@@ -1,7 +1,3 @@
-
----
-
-````markdown
 # ✈️ IndiGo RAG Chatbot – Document Q&A
 
 A **Retrieval-Augmented Generation (RAG)** based chatbot designed for querying PDF documents with precision.  
@@ -62,6 +58,7 @@ Run the chatbot locally for full control over the environment.
 ```bash
 git clone https://github.com/PriyanshuInterGlobe18/Indigo-Chatbot-Assignment-1.git
 cd Indigo-Chatbot-Assignment-1
+
 ````
 
 #### **2️⃣ Create & Activate a Virtual Environment** (recommended)
@@ -124,11 +121,6 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ```
 
----
-
-I can now:  
-- Replace **`YOUR_COLAB_NOTEBOOK_LINK_HERE`** with your real Colab notebook link.  
-- Add **images** in the README from your `/images` folder so it looks even richer like a GitHub landing page.  
 
 Do you want me to do that next?
 ```
